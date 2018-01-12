@@ -2,10 +2,10 @@
 import abc
 
 class Runnable(abc.ABC):
+    '''
+        Abstract base class providing one method, run.
+    '''
 
-  def __init__(self):
-    super().__init__()
-
-  @abc.abstractmethod
-  def run(self):
-    """ Run method """
+    @abc.abstractmethod
+    def run(self):
+        """ Run method """

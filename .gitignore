@@ -1,0 +1,6 @@
+.coverage
+.noseids
+.vscode
+coverage.xml
+__pycache__
+*.pyc
